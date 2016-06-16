@@ -443,6 +443,7 @@ public class MazeSolver
 	 */
 	public static void userSolve( char [][] maze )
 	{
+		System.out.println("2 - down \n4 - left \n6 - right \n8 - up");
 		int startX = -1;
 		int startY = -1;
 		int row = maze.length; //x length
