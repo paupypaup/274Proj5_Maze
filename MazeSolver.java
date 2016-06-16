@@ -199,7 +199,7 @@ public class MazeSolver
                 	startY = j;
                 }
             }
-		}
+	}
  
 		//create stack
 		LinkedStack stack = new LinkedStack();
@@ -324,7 +324,7 @@ public class MazeSolver
                 	startY = j;
                 }
             }
-		}
+	}
  
 		//create queue
 		LinkedQueue queue = new LinkedQueue();
