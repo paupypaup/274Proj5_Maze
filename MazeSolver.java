@@ -191,15 +191,15 @@ public class MazeSolver
 		//find starting point
 		for (int j = 0; j < col; j ++)
 		{
-            for (int i = 0; i < row; i++)
-            {
-                if (maze[i][j] == 's')
-                {
-                	startX = i;
-                	startY = j;
-                }
-            }
-	}
+        		for (int i = 0; i < row; i++)
+        		{
+		                if (maze[i][j] == 's')
+		                {
+		                	startX = i;
+		                	startY = j;
+		                }
+            		}
+		}
  
 		//create stack
 		LinkedStack stack = new LinkedStack();
@@ -292,11 +292,11 @@ public class MazeSolver
 		//Print finished maze
 		for (int i = 0; i < col; i ++)
 		{
-            for (int j = 0; j < row; j++)
-            {
-                System.out.print (maze[j][i]);
-            }
-            System.out.println();
+			for (int j = 0; j < row; j++)
+	            	{
+	                	System.out.print (maze[j][i]);
+	            	}
+			System.out.println();
 		}
 	}
 	
